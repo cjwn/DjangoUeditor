@@ -1,11 +1,16 @@
 
 ###由于近期均没有使用django的计划，所以DjangoUeditor停止更新，欢迎fork自行更改。
 
+---------------感谢原作者zhangfishier的辛苦付出，我也仅仅改了一点点适配django 1.11----------------
+
 本模块帮助在Django应用中集成百度Ueditor HTML编辑器,Django是Python世界最有影响力的web框架。
 Ueditor HTML编辑器是百度开源的在线HTML编辑器,功能非常强大，像表格可以直接拖动调整单元格大小等。
 
 更新历史
 ============
+###[2016-9-26]    ver:1.9.1431
+* Fix:adapt the django 1.11
+
 ###[2015-1-17]     Ver:1.9.143
 
 * Fix:当models.py中toolbars变量使用unicode字符时，编辑器无法加载的问题
